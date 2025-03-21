@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export APP_ENV=production
+    - /bin/bash /home/amlzoinu/Morvarid/deploy.sh
